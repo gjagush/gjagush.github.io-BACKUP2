@@ -1,32 +1,35 @@
 body {
         background-color: #333333;
-      }
-      h1 {
+}
+h1 {
         color: #ffffff;
         font-family: Helvetica, Arial, sans-serif;
-      }
-      h2 {
+}
+h2 {
         color: #dddddd;
         font-family: Helvetica, Arial, sans-serif;
-      }
-      h3 {
+}
+h3 {
         color: #dddddd;
         font-family: Helvetica, Arial, sans-serif;
-      }
-      p {
+}
+p {
         color: #cccccc;
         font-family: Helvetica, Arial, sans-serif;
-      }
-      link {
+}
+link {
         color:#888888;
-      }
-      vlink {
+}
+vlink {
         color: #111111;
-      }
-      alink {
+}
+alink {
         color:#ffffff;
-      }
-      .center-div{
+}
+.center-div{
         margin: 2% auto;
         width:90%;
-      }
+}
+a {
+       color:#888888;
+}

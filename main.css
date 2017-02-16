@@ -1,0 +1,32 @@
+body {
+        background-color: #333333;
+      }
+      h1 {
+        color: #ffffff;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      h2 {
+        color: #dddddd;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      h3 {
+        color: #dddddd;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      p {
+        color: #cccccc;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      link {
+        color:#888888;
+      }
+      vlink {
+        color: #111111;
+      }
+      alink {
+        color:#ffffff;
+      }
+      .center-div{
+        margin: 2% auto;
+        width:90%;
+      }

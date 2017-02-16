@@ -21,13 +21,13 @@ a:link {
         color:#888888;
 }
 a:visited {
-        color: #333333;
+        color:#888888;
 }
 a:hover {
         color:#dddddd;
 }
 a:active {
-        color:#ffffff;
+        color:#dddddd;
 }
 .center-div{
         margin: 2% auto;

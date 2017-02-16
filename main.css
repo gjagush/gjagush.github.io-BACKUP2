@@ -17,19 +17,23 @@ p {
         color: #cccccc;
         font-family: Helvetica, Arial, sans-serif;
 }
-link {
+a:link {
         color:#888888;
 }
-vlink {
+a:visited {
         color: #111111;
 }
-alink {
+a:hover {
+        color:#dddddd;
+}
+a:active {
         color:#ffffff;
 }
 .center-div{
         margin: 2% auto;
         width:90%;
 }
-a {
-       color:#888888;
+li {
+        color: #cccccc;
+        font-family: Helvetica, Arial, sans-serif;
 }

@@ -29,9 +29,17 @@ a:hover {
 a:active {
         color:#dddddd;
 }
-.center-div{
-        margin: 2% auto;
-        width:90%;
+@media only screen and (max-width: 1440px) {
+        .center-div{
+                margin: 2% auto;
+                width:90%;
+        }
+}
+@media only screen and (min-width: 1441px) {
+        .center-div{
+                margin: 2% auto;
+                width:50%;
+        }
 }
 li {
         color: #cccccc;

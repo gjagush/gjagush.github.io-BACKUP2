@@ -9,15 +9,16 @@
 <body>
   <div class="center-div"><h1>Blog Archive</h1
   <p><i><a href="index.html">Back to Home</a></i></p>
-  <form method="get" action="http://www.google.com/search">
-	<div style="border:1px solid black;padding:4px;width:20em;">
-	<table border="0" cellpadding="0">
-	<tr><td>
-	<input type="text"   name="q" size="25" maxlength="255" value="" />
-	<input type="submit" value="Search Post Archive" /></td></tr>
-	<tr><td align="center" style="font-size:75%">
-	</td></tr></table>
-	</div>
+  <script type="text/javascript">
+	var domainroot="jagush.com"
+	function Gsitesearch(curobj){
+	curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+	}
+	</script>
+	<form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+	<p>Search post archive:<br />
+	<input name="q" type="hidden" class="texta" />
+	<input name="qfront" type="text" class="texta" style="width: 180px; text-size: 12px; height: 12px;" /></p>
 	</form>
   </div>
   <div class="center-div">
@@ -39,11 +40,11 @@
 		<li>October</li>
 			<ul>
 			<li><a href="posts/20161026.html">Bad Linguistics</a></li>
+			<li><a href="posts/20161021.html">"...but he needs knowledge of the TRUE secrets of Freemasonry."</a></li>
 			<li><a href="posts/20161005.html">The Prep Room</a></li>
 			</ul>
 		<li>September</li>
 			<ul>
-			<li><a href="posts/20160921.html">"...but he needs knowledge of the TRUE secrets of Freemasonry."</a></li>
 			<li><a href="posts/20160920.html">Osirian Musings</a></li>
 			<li><a href="posts/20160919.html">Proto-Scottish Rite Masonry</a></li>
 			</ul>

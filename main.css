@@ -31,32 +31,32 @@ a:active {
 }
 @media only screen and (max-width: 1440px) {
         .center-div{
-                margin: 2% auto;
-                width:90%;
-				border-style: groove;
-				border-radius: 2px;
-        }
+            margin: 2% auto;
+            width:90%;
+			/*border-style: groove;
+			border-radius: 2px;*/
+			}
 		.footer-div{
 			margin: 2% auto;
 			width:90%;
 			text-align: center;
-			border-style: groove;
-			border-radius: 2px;
+			/*border-style: groove;
+			border-radius: 2px;*/
 			}
 }
 @media only screen and (min-width: 1441px) {
         .center-div{
-                margin: 2% auto;
-                width:33%;
-				border-style: groove;
-				border-radius: 2px;
-        }
+			margin: 2% auto;
+			width:33%;
+			/*border-style: groove;
+			border-radius: 2px;*/
+			}
 		.footer-div{
 			margin: 2% auto;
 			width:33%;
 			text-align: center;
-			border-style: groove;
-			border-radius: 2px;
+			/*border-style: groove;
+			border-radius: 2px;*/
 			}
 }
 li {

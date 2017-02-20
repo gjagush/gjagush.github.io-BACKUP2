@@ -45,3 +45,8 @@ li {
         color: #cccccc;
         font-family: Helvetica, Arial, sans-serif;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

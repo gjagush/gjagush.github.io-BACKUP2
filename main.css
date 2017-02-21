@@ -29,6 +29,10 @@ a:hover {
 a:active {
         color:#dddddd;
 }
+a.clandyheader{
+	color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+}
 @media only screen and (max-width: 1440px) {
         .center-div{
             margin: 2% auto;

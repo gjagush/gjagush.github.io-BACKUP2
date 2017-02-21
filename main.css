@@ -29,8 +29,19 @@ a:hover {
 a:active {
         color:#dddddd;
 }
-a.clandyheader{
+a.clandyheader:link{
 	color: #ffffff;
+	text-decoration:none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+a.clandyheader:link{
+	color: #ffffff;
+	text-decoration:none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+a.clandyheader:link{
+	color: #ffffff;
+	text-decoration:none;
 	font-family: Helvetica, Arial, sans-serif;
 }
 @media only screen and (max-width: 1440px) {

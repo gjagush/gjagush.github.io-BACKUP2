@@ -1,5 +1,12 @@
 body {
-	background-color: #EEEEEE;
+	/*background-color: #EEEEEE;*/
+}
+#grad{
+	background: red; /*browsers with no gradients*/
+	background: -webkit-linear-gradient(left,red,purple);
+	background: -o-linear-gradient(right,red,purple);
+	background: -moz-linear-gradient(right,red,purple);
+	background: linear-gradient(to right,red,purple);
 }
 h1 {
 	/*color: #000000;*/

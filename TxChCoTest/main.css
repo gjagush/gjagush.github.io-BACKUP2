@@ -1,13 +1,14 @@
 body {
-	/*background-color: #EEEEEE;*/
+	background-color: #000000;
 }
 #grad{
-	background: rgba(255,0,0,0.5); /*browsers with no gradients*/
-	background: -webkit-linear-gradient(left,rgba(255,0,0,0.5),rgba(150,0,150,0.5));
-	background: -o-linear-gradient(right,rgba(255,0,0,0.5),rgba(150,0,150,0.5));
-	background: -moz-linear-gradient(right,rgba(255,0,0,0.5),rgba(150,0,150,0.5));
-	background: linear-gradient(to right,rgba(255,0,0,0.5),rgba(150,0,150,0.5));
+	background: rgba(255,0,0,0.75); /*browsers with no gradients*/
+	background: -webkit-linear-gradient(left,rgba(255,0,0,0.75),rgba(150,0,150,0.75));
+	background: -o-linear-gradient(right,rgba(255,0,0,0.75),rgba(150,0,150,0.75));
+	background: -moz-linear-gradient(right,rgba(255,0,0,0.75),rgba(150,0,150,0.75));
+	background: linear-gradient(to right,rgba(255,0,0,0.75),rgba(150,0,150,0.75));
 }
+
 h1 {
 	/*color: #000000;*/
 	font-family: Helvetica, Arial, sans-serif;
@@ -35,6 +36,8 @@ h4 {
 p {
 	/*color: #000000;*/
 	font-family: Helvetica, Arial, sans-serif;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 }
 /*
 a:link {

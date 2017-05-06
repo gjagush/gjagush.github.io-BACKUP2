@@ -2,11 +2,11 @@ body {
 	/*background-color: #EEEEEE;*/
 }
 #grad{
-	background: red; /*browsers with no gradients*/
-	background: -webkit-linear-gradient(left,red,purple);
-	background: -o-linear-gradient(right,red,purple);
-	background: -moz-linear-gradient(right,red,purple);
-	background: linear-gradient(to right,red,purple);
+	background: rgba(255,0,0,0.25); /*browsers with no gradients*/
+	background: -webkit-linear-gradient(left,rgba(255,0,0,0.25),rgba(150,0,150,0.25));
+	background: -o-linear-gradient(right,rgba(255,0,0,0.25),rgba(150,0,150,0.25));
+	background: -moz-linear-gradient(right,rgba(255,0,0,0.25),rgba(150,0,150,0.25));
+	background: linear-gradient(to right,rgba(255,0,0,0.25),rgba(150,0,150,0.25));
 }
 h1 {
 	/*color: #000000;*/

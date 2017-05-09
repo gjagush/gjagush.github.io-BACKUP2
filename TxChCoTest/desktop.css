@@ -1,0 +1,6 @@
+/* This is for standard PCs. desktop.css */
+@media only screen and (min-width: 1440px) {
+  .footer, .header, .sidebar, .barebones, .mcont, .banner, #flag, #hptim{
+	display: none;
+  }
+}

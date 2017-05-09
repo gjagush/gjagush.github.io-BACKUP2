@@ -1,6 +1,10 @@
 body {
         background-color: #333333;
 }
+.live{
+    color: red;
+    font-weight: bold;
+}
 h1 {
         color: #ffffff;
         font-family: Helvetica, Arial, sans-serif;

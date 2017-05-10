@@ -8,15 +8,6 @@ body {
 .live > *{
     color: #C00;
 }
-.live > * > *{
-    color: #C00;
-}
-.live > * > * > *{
-    color: #C00;
-}
-.live > * > * > * > *{
-    color: #C00;
-}
 
 h1 {
         color: #ffffff;

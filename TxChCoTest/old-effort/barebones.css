@@ -1,9 +1,23 @@
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 320px){
 	/* Which divs ARE we showing? */
+
+	body{
+		font-size: 100%;
+	}
+
 	.barebones{
 		display: block;
 		text-align: center;
 		margin: 2.5em auto;
+	}
+
+	.barebones-footer{
+		display: block;
+		position: absolute;
+		margin: 0.5em auto;
+		width:95%;
+		text-align: center;
+		bottom: 0;
 	}
 
 	body{

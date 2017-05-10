@@ -1,0 +1,16 @@
+body{
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#ch{
+	color: #C00;
+}
+
+#co{
+	color: #A0A;
+}
+
+.footer, .header, .sidebar, .barebones, .barebones-footer, .mcont, .banner, #flag, #hptim{
+	display: none;
+}

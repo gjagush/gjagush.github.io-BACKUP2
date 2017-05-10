@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1024px){
+	.mcont, .banner, .barebones, .barebones-footer{
+		display: none;
+	}
+
+	.footer, .header, .sidebar, #flag, #hptim{
+		display: block;
+	}
+
+	body{
+		background-color: #BBB;
+		font-size: 80%;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		margin: 0.5em;
+	}
+
+	.header, .mcont, #flag{
+		margin: 0.5em;
+		margin-left: calc(20em + 50% - 30em);
+		margin-right: calc(50% - 27em);
+		width: 39em;
+		text-align: center;
+		border-style: groove;
+		border-radius: 2px;
+		background-color: #EEE;
+		}
+
+	.footer{
+		position: absolute;
+		bottom: 0;
+		margin: 0.5em;
+		margin-left: calc(20em + 50% - 27em);
+		margin-right: calc(50% - 27em);
+		width: 33.75em;
+		text-align: center;
+		}
+
+	#flag{
+		top: 0;
+	}
+
+	.sidebar{
+		/*z-index: 1;*/
+		position: absolute;
+		left: 0;
+		top: 0;
+		/*height: 90%;*/
+		/*width: 37%;*/
+		width: 20em;
+		margin: 0.12em auto;
+	}
+
+	/*h3#sidebar{*/
+	.sidebar h3{
+		display: block;
+		text-align: center;
+		border-style: groove;
+		border-radius: 2px;
+		background-color: #EEE;
+		padding: 0.25em;
+		font-style: normal;
+	}
+
+	.sidebar h3 a{
+		display: block;
+		color: #333;
+		font-style: normal;
+	}
+
+	/*em{
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	p{
+		margin: 0.25em;
+	}*/
+}

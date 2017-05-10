@@ -1,0 +1,31 @@
+@media only screen and (min-width: 320px){
+	/* Which divs ARE we showing? */
+	.barebones{
+		display: block;
+		text-align: center;
+		margin: 2.5em auto;
+		font-size: 140%;
+	}
+
+	.barebones-footer{
+		display: block;
+		position: absolute;
+		margin: 0.5em auto;
+		width:95%;
+		text-align: center;
+		bottom: 0;
+	}
+
+	body{
+		background-color: #EEE;
+	}
+
+	em{
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	p{
+		margin: 0.25em;
+	}
+}

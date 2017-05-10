@@ -1,18 +1,17 @@
-@media only screen and (min-width: 480px){
-	/* Which divs ARE we showing? */
+@media only screen and (min-width: 375px){
+	.barebones, .barebones-footer{
+		display: none;
+	}
+
 	.header, .footer, .mcont, .banner{
 		display: block;
 		text-align: center;
 		margin: 2.5em auto;
 	}
 
-	.barebones{
-		display: none;
-	}
-
 	body{
 		background-color: #BBB;
-		font-size: 67.50%;
+		font-size: 77%;
 	}
 
 	h1, h2, h3, h4, h5, h6{
@@ -21,7 +20,7 @@
 
 	.header, .mcont, .banner{
 		margin: 0.5em auto;
-		width:28em;
+		width: 28em;
 		text-align: center;
 		border-style: groove;
 		border-radius: 2px;

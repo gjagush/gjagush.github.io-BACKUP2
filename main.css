@@ -5,6 +5,9 @@ body {
     color: red;
     font-weight: bold;
 }
+.live ul{
+    color: #C00;
+}
 h1 {
         color: #ffffff;
         font-family: Helvetica, Arial, sans-serif;

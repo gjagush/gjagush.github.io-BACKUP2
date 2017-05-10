@@ -1,16 +1,15 @@
 @media only screen and (min-width: 768px){
-	/* Which divs ARE we showing? */
+	.mcont, .banner, .barebones, .barebones-footer{
+		display: none;
+	}
+
 	.footer, .header, .sidebar, #flag, #hptim{
 		display: block;
 	}
 
-	.mcont, .banner, .barebones{
-		display: none;
-	}
-
 	body{
 		background-color: #BBB;
-		font-size: 67.50%;
+		font-size: 80%;
 	}
 
 	h1, h2, h3, h4, h5, h6{
@@ -19,9 +18,9 @@
 
 	.header, .mcont, #flag{
 		margin: 0.5em;
-		margin-left: calc(20em + 50% - 27em);
+		margin-left: calc(20em + 50% - 30em);
 		margin-right: calc(50% - 27em);
-		width: 33.75em;
+		width: 39em;
 		text-align: center;
 		border-style: groove;
 		border-radius: 2px;

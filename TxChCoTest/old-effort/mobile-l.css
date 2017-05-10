@@ -1,0 +1,42 @@
+@media only screen and (min-width: 425px){
+	.barebones, .barebones-footer{
+		display: none;
+	}
+
+	.header, .footer, .mcont, .banner{
+		display: block;
+		text-align: center;
+		margin: 2.5em auto;
+	}
+
+	body{
+		background-color: #BBB;
+		font-size: 80%;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		margin: 0.5em;
+	}
+
+	.header, .mcont, .banner{
+		margin: 0.5em auto;
+		width: 28em;
+		text-align: center;
+		border-style: groove;
+		border-radius: 2px;
+		background-color: #EEE;
+		}
+
+	.footer{
+		position: absolute;
+		margin: 0.5em auto;
+		width:95%;
+		text-align: center;
+		bottom: 0;
+	}
+
+	em{
+		font-weight: bold;
+		font-style: italic;
+	}
+}

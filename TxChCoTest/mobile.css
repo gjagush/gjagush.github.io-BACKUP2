@@ -1,11 +1,11 @@
-@media only screen and (min-width: 360px){
+@media only screen and (min-width: 480px){
 	/* Which divs ARE we showing? */
 	.header, .footer, .mcont, .banner{
 		display: block;
 		text-align: center;
 		margin: 2.5em auto;
 	}
-	
+
 	.barebones{
 		display: none;
 	}
@@ -27,7 +27,7 @@
 		border-radius: 2px;
 		background-color: #EEE;
 		}
-	
+
 	.footer{
 		position: absolute;
 		margin: 0.5em auto;
@@ -35,7 +35,7 @@
 		text-align: center;
 		bottom: 0;
 	}
-	
+
 	em{
 		font-weight: bold;
 		font-style: italic;

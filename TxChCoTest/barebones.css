@@ -1,11 +1,11 @@
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 480px){
 	/* Which divs ARE we showing? */
 	.barebones{
 		display: block;
 		text-align: center;
 		margin: 2.5em auto;
 	}
-	
+
 	body{
 		background-color: #EEE;
 	}

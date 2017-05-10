@@ -1,11 +1,11 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1080px) {
 	.sidebar, #hptim{
 		display: block;
 	}
-	
+
 	.footer, .header, .barebones, .mcont, #flag, .banner{
 	display: none;
-	
+
 	body{
 		background-color: #BBB;
 		font-size: 67.50%;
@@ -14,7 +14,7 @@
 	h1, h2, h3, h4, h5, h6{
 		margin: 0.5em;
 	}
-	
+
 	.sidebar{
 		/*z-index: 1;*/
 		position: absolute;

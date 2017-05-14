@@ -3,7 +3,7 @@
 * Copyright 2011-2016 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
- 
+
 html{
 	font-family:sans-serif;
 	-webkit-text-size-adjust:100%;
@@ -12,12 +12,15 @@ html{
 
 body{
 	margin:0;
+    background-image: url(bgimg/brickwall_@2X.png);
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
 	display:block
 }
- 
+
 audio,canvas,progress,video{
 	display:inline-block;
 	vertical-align:baseline;

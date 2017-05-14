@@ -1,6 +1,38 @@
 body {
         background-color: #333333;
+        color: #cccccc;
+        font-family: Helvetica, Arial, sans-serif;
 }
+
+li.dark, li.light{
+    border-radius: 0.5em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding: 0.25em;
+}
+
+li.dark{
+    background-color: #111;
+    color: #CCC;
+}
+
+li.light{
+    background-color: #CCC;
+    color: #111;
+}
+
+._3rowspace{
+    margin-top: 3em;
+}
+
+.red-font{
+    color:red;
+}
+
+.green-font{
+    color:green;
+}
+
 .live{
     color: red;
     font-weight: bold;
@@ -18,17 +50,11 @@ body {
     color: #C00;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6, th{
         color: #ffffff;
         font-family: Helvetica, Arial, sans-serif;
 }
-h2 {
-        color: #dddddd;
-        font-family: Helvetica, Arial, sans-serif;
-}
-h3 {
-        color: #dddddd;
-        font-family: Helvetica, Arial, sans-serif;
+
 }
 p {
         color: #cccccc;
@@ -61,36 +87,36 @@ a.clandyheader:link{
 	text-decoration:none;
 	font-family: Helvetica, Arial, sans-serif;
 }
-@media only screen and (max-width: 1440px) {
-        .center-div{
-            margin: 2% auto;
-            width:90%;
-			/*border-style: groove;
-			border-radius: 2px;*/
-			}
-		.footer-div{
-			margin: 2% auto;
-			width:90%;
-			text-align: center;
-			/*border-style: groove;
-			border-radius: 2px;*/
-			}
+
+@media only screen and (max-width: 89ch) {
+    .center-div, .footer-div{
+        margin: 2% auto;
+        width:90%;
+	}
+    .footer-div{
+		text-align: center;
+	}
 }
-@media only screen and (min-width: 1441px) {
-        .center-div{
-			margin: 2% auto;
-			width:33%;
-			/*border-style: groove;
-			border-radius: 2px;*/
-			}
-		.footer-div{
-			margin: 2% auto;
-			width:33%;
-			text-align: center;
-			/*border-style: groove;
-			border-radius: 2px;*/
-			}
+
+@media only screen and (min-width: 90ch) {
+    .center-div, .footer-div{
+        margin: 2% auto;
+        width: 80ch;
+	}
+    .footer-div{
+		text-align: center;
+	}
 }
+
+table{
+    margin: auto;
+}
+
+th, td{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 li {
         color: #cccccc;
         font-family: Helvetica, Arial, sans-serif;

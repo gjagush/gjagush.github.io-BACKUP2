@@ -1,5 +1,6 @@
 body{
 	color: #333;
+	background-color:#EEE;
 	font-family: Helvetica, Arial, sans-serif;
 	/* need a background image */
 }
@@ -18,32 +19,23 @@ body{
 }
 
 /*Barebones Layout*/
-@media only screen and (max-width: 320px){
-	/* Which divs ARE we showing? */
-
-	body{
-		font-size: 100%;
+@media only screen and (min-width: 20px){
+	.barebones, .barebones-footer{
+		display: block;
+		text-align: center;
 	}
 
 	.barebones{
-		display: block;
-		text-align: center;
 		margin: 2.5em auto;
 	}
 
 	.barebones-footer{
-		display: block;
 		position: absolute;
 		margin: 0.5em auto;
-		width:95%;
-		text-align: center;
+		width: 95%;
 		bottom: 0;
 	}
-
-	body{
-		background-color: #EEE;
-	}
-
+	
 	em{
 		font-weight: bold;
 		font-style: normal;
@@ -54,36 +46,10 @@ body{
 	}
 }
 
-/*Small Mobile Layout*/
+/*Small Mobile (Barebones, Formatted) Layout*/
 @media only screen and (min-width: 320px){
-	/* Which divs ARE we showing? */
 	.barebones{
-		display: block;
-		text-align: center;
-		margin: 2.5em auto;
 		font-size: 140%;
-	}
-
-	.barebones-footer{
-		display: block;
-		position: absolute;
-		margin: 0.5em auto;
-		width:95%;
-		text-align: center;
-		bottom: 0;
-	}
-
-	body{
-		background-color: #EEE;
-	}
-
-	em{
-		font-weight: bold;
-		font-style: normal;
-	}
-
-	p{
-		margin: 0.25em;
 	}
 }
 
@@ -92,199 +58,116 @@ body{
 	.barebones, .barebones-footer{
 		display: none;
 	}
-
+	
 	.header, .footer, .mcont, .banner{
 		display: block;
 		text-align: center;
-		margin: 2.5em auto;
+		margin: 0.5em auto;
 	}
 
 	body{
-		background-color: #DDD;
 		font-size: 77%;
 	}
-
+	
 	h1, h2, h3, h4, h5, h6{
 		margin: 0.5em;
 	}
 
+	a{
+		color: #333;
+		text-decoration: none;
+	}
+
 	.header, .mcont, .banner{
-		margin: 0.5em auto;
 		width: 28em;
-		text-align: center;
 		border-style: groove;
 		border-width: 3px;
+		border-radius: 12px;
 		background-color: #FFF;
-		}
-	
-	div{
-		border-image:
-			linear-gradient(to bottom right, #C00 0%, #808 75%);
-		border-image-slice: 1;
 	}
-	
+
 	.footer{
 		position: absolute;
-		margin: 0.5em auto;
-		width:95%;
-		text-align: center;
+		width: 95%;
 		bottom: 0;
 	}
 
-	em{
-		font-weight: bold;
-		font-style: italic;
+	.header a, .mcont a, .banner a{
+		display: block;
 	}
 
-	a{
-		color: #333;
-		font-style: normal;
+	.footer a{
+		text-decoration: underline;
 	}
 }
 
 /*Large Mobile Layout*/
 @media only screen and (min-width: 425px){
-	.barebones, .barebones-footer{
-		display: none;
-	}
-
-	.header, .footer, .mcont, .banner{
-		display: block;
-		text-align: center;
-		margin: 2.5em auto;
-	}
-
 	body{
 		font-size: 80%;
-	}
-
-	.header, .mcont, .banner{
-		margin: 0.5em auto;
-		width: 28em;
-		text-align: center;
-		border-style: groove;
-		border-radius: 2px;
-		}
-
-	.footer{
-		position: absolute;
-		margin: 0.5em auto;
-		width:95%;
-		text-align: center;
-		bottom: 0;
-	}
-
-	em{
-		font-weight: bold;
-		font-style: italic;
 	}
 }
 
 /*Tablet Layout*/
 @media only screen and (min-width: 768px){
-	.mcont, .banner, .barebones, .barebones-footer{
+	.mcont, .banner{
 		display: none;
 	}
-
-	.footer, .header, .sidebar, #flag, #hptim{
+	
+	.sidebar, #flag, #htptim{
 		display: block;
 	}
 
-	body{
-		font-size: 80%;
-	}
-
-	.header, .mcont{
-		margin: 0.5em;
+	.header, #flag{
 		margin-left: calc(20em + 50% - 30em);
 		margin-right: calc(50% - 27em);
 		width: 39em;
-		text-align: center;
-		border-style: groove;
-		border-radius: 2px;
-		background-color: #EEE;
-		}
-
+	}
+	
 	.footer{
 		position: absolute;
 		bottom: 0;
-		margin: 0.5em;
 		margin-left: calc(20em + 50% - 27em);
 		margin-right: calc(50% - 27em);
 		width: 33.75em;
-		text-align: center;
-		}
+	}
 
 	#flag{
 		top: 0;
-		margin: 0.5em;
-		margin-left: calc(20em + 50% - 30em);
-		margin-right: calc(50% - 27em);
-		width: calc(39em + 6px);
-		text-align: center;
-		border-style: none;
-		border-radius: 0px;
-		background-color: #EEE;
-	}
-	
+		width: calc(39.4em);
+	}	
+
 	.sidebar{
-		/*z-index: 1;*/
 		position: absolute;
 		left: 0;
 		top: 0;
-		/*height: 90%;*/
-		/*width: 37%;*/
 		width: 20em;
 		margin: 0.12em auto;
+		text-align: center;
 	}
 
-	/*h3#sidebar{*/
 	.sidebar h3{
-		display: block;
-		text-align: center;
 		border-style: groove;
-		border-radius: 2px;
-		background-color: #EEE;
+		border-width: 3px;
+		border-radius: 12px;
 		padding: 0.25em;
-		font-style: normal;
-		border-image:
-			linear-gradient(to bottom right, #C00 0%, #808 75%);
-		border-image-slice: 1;
+		background-color: #FFF;
 	}
 
 	.sidebar h3 a{
 		display: block;
-		color: #333;
-		font-style: normal;
-		text-decoration: none;
 	}
+
 }
 
 /*Laptop & Landscape Tablet Layout*/
 @media only screen and (min-width: 1024px){
-	.mcont, .banner, .barebones, .barebones-footer{
-		display: none;
-	}
-
-	.footer, .header, .sidebar, #flag, #hptim{
-		display: block;
-	}
-
-	body{	
-		font-size: 80%;
-	}
+	
 }
 
 /*Desktop PC Layout*/
 @media only screen and (min-width: 1440px) {
-  .footer, .header, .sidebar, .barebones, .barebones-footer, .mcont, .banner, #flag, #hptim{
-	display: none;
-  }
 }
 
-/*Let's try and make a 4k layout*/
-/*@media only screen and (min-width: 1440px) {
-  .footer, .header, .sidebar, .barebones, .barebones-footer, .mcont, .banner, #flag, #hptim{
-	display: none;
-  }
-}*/
+@media only screen and (min-width: 2560px) {
+}

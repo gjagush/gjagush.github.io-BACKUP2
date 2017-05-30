@@ -1,5 +1,211 @@
-/*body{
-    background-image: url(bgimg/brickwall_@2X.png);
-    padding-top: 20px;
-    padding-bottom: 40px;
-}*/
+body{
+	color: #333;
+	background-color:#EEE;
+	font-family: Helvetica, Arial, sans-serif;
+	/* need a background image */
+}
+
+#ch{
+	color: #C00;
+}
+
+#co{
+	/*color: #A0A;*/
+	color: #808;
+}
+
+.footer, .header, .sidebar, .barebones, .barebones-footer, .mcont, .banner, #flag, #hptim{
+	display: none;
+}
+
+/*Barebones Layout*/
+@media only screen and (min-width: 20px){
+	.barebones, .barebones-footer{
+		display: block;
+		text-align: center;
+	}
+
+	.barebones{
+		margin: 2.5em auto;
+	}
+
+	.barebones-footer{
+		position: absolute;
+		margin: 0.5em auto;
+		width: 95%;
+		bottom: 0;
+	}
+
+	em{
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	p{
+		margin: 0.25em;
+	}
+}
+
+/*Small Mobile (Barebones, Formatted) Layout*/
+@media only screen and (min-width: 320px){
+	.barebones{
+		font-size: 140%;
+	}
+}
+
+/*Medium Mobile Layout*/
+@media only screen and (min-width: 375px){
+	.barebones, .barebones-footer{
+		display: none;
+	}
+
+	.header, .footer, .mcont, .banner{
+		display: block;
+		text-align: center;
+		margin: 0.5em auto;
+	}
+
+	body{
+		font-size: 77%;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		margin: 0.5em;
+	}
+
+	a{
+		color: #333;
+		text-decoration: none;
+	}
+
+	.header, .mcont, .banner{
+		width: 28em;
+		border-style: groove;
+		border-width: 3px;
+		border-radius: 12px;
+		background-color: #FFF;
+	}
+
+	.footer{
+		position: absolute;
+		width: 95%;
+		bottom: 0;
+	}
+
+	.header a, .mcont a, .banner a{
+		display: block;
+	}
+
+	.footer a{
+		text-decoration: underline;
+	}
+}
+
+/*Large Mobile Layout*/
+@media only screen and (min-width: 425px){
+	body{
+		font-size: 80%;
+	}
+}
+
+/*Tablet Layout*/
+@media only screen and (min-width: 768px){
+	.mcont, .banner{
+		display: none;
+	}
+
+	.sidebar, #flag, #htptim{
+		display: block;
+	}
+
+	.header, #flag{
+		margin-left: calc(20em + 50% - 30em);
+		margin-right: calc(50% - 27em);
+		width: 39em;
+	}
+
+	.footer{
+		position: absolute;
+		bottom: 0;
+		margin-left: calc(20em + 50% - 27em);
+		margin-right: calc(50% - 27em);
+		width: 33.75em;
+	}
+
+	#flag{
+		top: 0;
+		width: calc(39.4em);
+	}
+
+	.sidebar{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 20em;
+		margin: 0.12em auto;
+		text-align: center;
+	}
+
+	.sidebar h3{
+		border-style: groove;
+		border-width: 3px;
+		border-radius: 12px;
+		padding: 0.25em;
+		background-color: #FFF;
+	}
+
+	.sidebar h3 a{
+		display: block;
+	}
+
+}
+
+/*Laptop & Landscape Tablet Layout*/
+@media only screen and (min-width: 1024px){
+	.header, #flag{
+		margin-left: calc(20em + 50% - 30em);
+		margin-right: calc(50% - 27em);
+		width: 39em;
+	}
+
+	.footer{
+		position: absolute;
+		bottom: 0;
+		margin-left: calc(20em + 50% - 27em);
+		margin-right: calc(50% - 27em);
+		width: 33.75em;
+	}
+
+	#flag{
+		top: 0;
+		width: calc(39.4em);
+	}
+
+	.sidebar{
+		position: absolute;
+		left: calc(25% - 10em);
+		top: 0;
+		width: 20em;
+		margin: 0.12em auto;
+		text-align: center;
+	}
+
+	.sidebar h3{
+		border-style: groove;
+		border-width: 3px;
+		border-radius: 12px;
+		padding: 0.25em;
+		background-color: #FFF;
+	}
+
+	.sidebar h3 a{
+		display: block;
+	}
+}
+
+/*Desktop PC Layout*/
+@media only screen and (min-width: 1440px) {
+}
+
+@media only screen and (min-width: 2560px) {
+}
